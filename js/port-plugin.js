@@ -3,7 +3,7 @@
     this.portPlugin=function(){
         var self=this;
         this.defaults={
-            cols:4,
+            cols:3,
             colsSm:2,
             colsXs:1,
             elemId:"port-content"
