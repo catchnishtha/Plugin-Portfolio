@@ -1,6 +1,6 @@
 Google Images styled responsive gallery. This plugin has been created in pure Javascript. 
 
-    The breakpoints are set at 768px and 992px for responsiveness.
+The breakpoints are set at 768px and 992px for responsiveness.
 
 **Customisation**:
 *colsXs*: number of columns in devices with width < 768px  (default 1)
