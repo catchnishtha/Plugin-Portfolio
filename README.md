@@ -8,6 +8,7 @@ The breakpoints are set at 768px and 992px for responsiveness.
 * *elemId*: Id of the element containing the gallery (default port-content)
 
 **Implementation:**
+
 Add the following code at the end of the page above the closing </body> tag - 
 ```
 document.addEventListener('DOMContentLoaded', function() {
