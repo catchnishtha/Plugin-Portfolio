@@ -19,7 +19,6 @@
         this.displayOnClick();
         window.onresize = function() { 
             self.setColWidth(); 
-            
         };  
     } 
         /*Extend options entered by the user*/
@@ -39,7 +38,9 @@
             if (window.matchMedia('(max-width: 991px)').matches) numOfCols=this.options.colsSm;
             if (window.matchMedia('(max-width: 767px)').matches) numOfCols=this.options.colsXs;
                 for(var i = 0; i<this.elemsSingleArr.length; i++) {
-                    this.elemsSingleArr[i].style.width=(100/numOfCols)+'%';
+                    if(this.elemsSingleArr[i].className.toLowerCase() == "newlicontent")
+                        this.elemsSingleArr[i].style.width='100%';
+                     else this.elemsSingleArr[i].style.width=(100/numOfCols)+'%';
                 }
         };
         
