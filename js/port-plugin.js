@@ -19,6 +19,7 @@
         this.displayOnClick();
         window.onresize = function() { 
             self.setColWidth(); 
+            
         };  
     } 
         /*Extend options entered by the user*/

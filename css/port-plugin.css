@@ -63,4 +63,9 @@ ul#port-content .openedLi{background-color: #fff;}
     ul.thumbs li {
         width: 100% !important;
     }
+    .newLiContent h1, .newLiContent p, .newLiContent a{margin-left: 0%;}
+    .newLiContent .media img, .newLiContent h1, .newLiContent p, .newLiContent a{
+        clear:both;
+        width: 100%;
+    }
 }
