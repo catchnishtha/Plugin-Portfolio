@@ -1,3 +1,5 @@
+Here is the [**DEMO**](http://nishthasinghal.com/plugin/plugin-portfolio/).
+
 Google Images styled responsive gallery. This plugin has been created in pure Javascript. 
 The breakpoints are set at 768px and 992px for responsiveness.
 
