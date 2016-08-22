@@ -28,4 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-Tested for Safari, Chrome and Firefox.
+Tested for Safari, Chrome and Firefox, IE11.
