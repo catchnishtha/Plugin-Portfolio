@@ -68,7 +68,8 @@
                     } 
                     //remove class "openedLi" from the 'li' already expanded
                     for(var j = 0; j < self.elemsSingleArr.length; j++){ 
-                        if(self.elemsSingleArr[j].className.toLowerCase() == "openedli"){  
+                        if(self.elemsSingleArr[j].classList.contains("openedLi")){ 
+                            console.log("openedli"); 
                             if(this.getAttribute("data-link")==self.elemsSingleArr[j].getAttribute("data-link")){
                                 donot=true; 
                             }
