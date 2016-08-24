@@ -129,7 +129,7 @@
             })();
             function scrollTo(to) {
                 var start=document.documentElement.scrollTop || document.body.parentNode.scrollTop || document.body.scrollTop,
-                change = to - start -150, currentTime = 0, increment = 25,  duration = 500;
+                change = to - start -70, currentTime = 0, increment = 25,  duration = 1000;
                 var animateScroll = function(){ 
                     currentTime += increment;// increment the time
                     // find the value with the quadratic in-out easing function
